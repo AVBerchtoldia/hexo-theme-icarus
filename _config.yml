@@ -1,0 +1,67 @@
+# Menus
+menu:
+  Home: .
+  Programm: programm
+
+# Customize
+customize:
+  logo:
+    enabled: true
+    width: 120
+    height: 120
+    url: images/LogoAVBCropped.png
+  profile:
+    enabled: false
+  highlight: monokai
+  sidebar: right
+  thumbnail: false
+  favicon: # todo
+  social_links:
+    github: /
+    twitter: /
+    facebook: https://www.facebook.com/berchtoldia/
+    instagram: https://www.instagram.com/avberchtoldia/
+    dribble: /
+    rss: / 
+  social_link_tooltip: true
+
+# Widgets
+widgets:
+  - recent_posts
+  - category
+  - archive
+  - tag
+  - tagcloud
+  - links
+
+# Search
+search:
+  insight: false # you need to install `hexo-generator-json-content` before using Insight Search
+  swiftype: # enter swiftype install key here
+  baidu: false # you need to disable other search engines to use Baidu search, options: true, false
+
+# Comment
+comment:
+  disqus: # enter disqus shortname here
+  duoshuo: # enter duoshuo shortname here
+  youyan: # enter youyan uid here
+
+# Share
+share: default # options: jiathis, bdshare, addtoany, default
+
+# Plugins
+plugins:
+  lightgallery: true # options: true, false
+  google_analytics: # enter the tracking ID for your Google Analytics
+  google_site_verification: # enter Google site verification code
+  baidu_analytics: # enter Baidu Analytics hash key
+
+# Miscellaneous
+miscellaneous:
+  open_graph: # see http://ogp.me
+    fb_app_id:
+    fb_admins:
+    twitter_id:
+    google_plus:
+  links:
+    AV Berchtoldia: http://www.berchtoldia.ch
